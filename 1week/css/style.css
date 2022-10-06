@@ -1,0 +1,95 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css');
+@import 'header.css';
+@import 'footer.css';
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 100%;
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+section .title {
+  font-size: 20px;
+  font: #757575;
+}
+
+.career-insight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 60px;
+}
+
+.career-insight__contents {
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.career-insight__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.career-insight__content-info {
+  display: flex;
+}
+
+.career-insight__more {
+  padding: 13px;
+  border-radius: 20px;
+  width: 345px;
+  background-color: inherit;
+  font-weight: 700;
+  border: 1px solid #e5e5e5;
+  font-size: 15px;
+}
+
+i {
+  display: inline-block;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 800;
+  content: '\f014';
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.career-insight i {
+  opacity: 0.2;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 60px;
+}
+
+.article-title {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.article-all {
+  font-weight: 500;
+  color: #767676;
+  margin: 5px 0;
+}
