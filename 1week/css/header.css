@@ -5,6 +5,8 @@ header {
   border-bottom: #e5e5e5 1px solid;
   padding: 10px 0px;
   flex-wrap: nowrap;
+  position: fixed;
+  background: white;
 }
 
 .header {
