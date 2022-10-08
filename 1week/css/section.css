@@ -10,6 +10,10 @@ section .title {
   font: #757575;
 }
 
+.fa-circle-question {
+  cursor: pointer;
+}
+
 .banners {
   margin: 75px auto 0px auto;
   border-radius: 4px;
@@ -20,6 +24,7 @@ section .title {
   position: relative;
   width: 1060px;
   margin: 0px 30px 0px 30px;
+  cursor: pointer;
 }
 
 .banner-descript {
@@ -113,6 +118,18 @@ section .title {
 .career-insight__content {
   display: flex;
   flex-direction: column;
+  cursor: pointer;
+}
+
+.career-insight__content img {
+  border-radius: 4px;
+  object-fit: cover;
+  outline: 1px solid rgba(0, 0, 0, 0.05);
+  outline-offset: -1px;
+}
+
+.career-insight__content:hover .career-insight__content-title {
+  text-decoration: underline;
 }
 
 .career-insight__content-title {
@@ -139,6 +156,9 @@ section .title {
   height: 30px;
   border-radius: 50%;
   border: 1px solid #ececec;
+  object-fit: cover;
+  outline: 1px solid rgba(0, 0, 0, 0.05);
+  outline-offset: -1px;
 }
 
 .content-info__logo:hover {
@@ -161,6 +181,7 @@ section .title {
   font-weight: 700;
   border: 1px solid #e5e5e5;
   font-size: 15px;
+  cursor: pointer;
 }
 
 .career-insight i {
@@ -184,6 +205,7 @@ section .title {
   font-weight: 500;
   color: #767676;
   margin: 5px 0;
+  cursor: pointer;
 }
 
 .article-contents {
@@ -200,8 +222,12 @@ section .title {
 }
 
 .article-content img {
-  width: 100%;
-  height: 130px;
+  width: 250px;
+  height: 177px;
+  border-radius: 4px;
+  object-fit: cover;
+  outline: 1px solid rgba(0, 0, 0, 0.05);
+  outline-offset: -1px;
 }
 
 .article-content__title {
@@ -233,6 +259,13 @@ section .title {
 .vod-content {
   display: flex;
   flex-direction: column;
+}
+
+.vod-content img {
+  border-radius: 4px;
+  object-fit: cover;
+  outline: 1px solid rgba(0, 0, 0, 0.05);
+  outline-offset: -1px;
 }
 
 .vod-content__maker {
@@ -295,6 +328,10 @@ section .title {
 .event-content__image {
   width: 500px;
   height: 280px;
+  border-radius: 4px;
+  object-fit: cover;
+  outline: 1px solid rgba(0, 0, 0, 0.05);
+  outline-offset: -1px;
 }
 
 .event-content__title {

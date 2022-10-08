@@ -51,10 +51,12 @@ header {
 
 .header-nav li {
   padding: 15px;
+  position: relative;
 }
 
 .header-nav li:hover {
   border-bottom: 2px solid black;
+  padding: -2px;
   cursor: pointer;
 }
 
@@ -70,7 +72,8 @@ header {
 
 .sup-new::after {
   content: 'New';
-  vertical-align: super;
+  position: absolute;
+  top: 9.5px;
   font-size: 1px;
   color: #5688ff;
   font-weight: 100;
@@ -79,7 +82,8 @@ header {
 
 .sup-beta::after {
   content: 'Beta';
-  vertical-align: super;
+  position: absolute;
+  top: 9.5px;
   font-size: 1px;
   color: #5688ff;
   font-weight: 100;
@@ -100,4 +104,9 @@ header {
   font-size: 13px;
   background-color: inherit;
   opacity: 0.5;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
