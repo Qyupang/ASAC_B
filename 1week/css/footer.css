@@ -1,5 +1,7 @@
-.footer {
-  width: 100%;
+footer {
+  width: 80%;
+  padding: 0px 0px 100px 0px;
+  margin: 0 auto;
 }
 
 .footer-top {
@@ -37,7 +39,6 @@
 .sns {
   display: flex;
   justify-content: space-between;
-  /* border: 1px solid black; */
 }
 
 .footer-bottom {

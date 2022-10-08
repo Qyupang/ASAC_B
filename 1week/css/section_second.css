@@ -1,0 +1,288 @@
+/* 두번쨰 페이지 */
+.category {
+  margin: 0 auto;
+}
+
+.category-wrap {
+  width: 80%;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.category-top {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.category-top__career {
+  display: flex;
+  font-size: 24px;
+  align-items: center;
+}
+
+.category-top__career span {
+  margin: 0px 15.5px 0px 0px;
+}
+
+.category-top__career-type {
+  display: flex;
+}
+
+.category-top__career-detail {
+  display: flex;
+}
+
+.bar {
+  padding: 0px 24px 0px;
+  opacity: 0.3;
+  font-weight: 100;
+}
+
+.button {
+  border: 1px solid black;
+  padding: 3px;
+  font-size: 15px;
+  border-radius: 50%;
+  opacity: 0.3;
+}
+
+.blue {
+  color: blue;
+}
+
+.category-top__selections {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin: 30px 0px;
+}
+
+.category-top__selection-left {
+  display: flex;
+}
+
+.category-top__selection-region {
+  padding: 10px 15px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.category-top__selection-career {
+  padding: 10px 15px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.category-top__selection-tech {
+  padding: 10px 15px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.category-top__selection-right {
+  padding: 10px 15px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+#sorting {
+  border: none;
+  font-size: 14px;
+}
+
+.category-botton {
+  font-size: 13px;
+  margin: 0px 8px 0px 0px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 30px;
+  height: 100%;
+}
+
+.category-botton:nth-child(n) {
+  background-color: #f3f3fb;
+}
+
+.category-botton:nth-child(2n) {
+  background-color: #f2fbf5;
+}
+
+.category-botton:nth-child(5n) {
+  background-color: #f7f2f9;
+}
+
+main {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+}
+
+.top-section {
+  display: flex;
+  flex-direction: column;
+  width: 68%;
+}
+
+.bookmark {
+  color: #3366ff;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.top-section__title {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+  color: #333;
+  margin: 20px 0 14px;
+}
+
+.top-setion__companies {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-section__company {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 193px;
+}
+
+.banner-image {
+  height: 147px;
+  width: 193px;
+  border-radius: 3px 3px 0 0;
+  background-position: 50%;
+  background-size: cover;
+}
+
+.company-image {
+  position: absolute;
+  top: 125px;
+  left: 16px;
+  width: 50px;
+  height: 50px;
+  z-index: 0;
+  background-position: 50%;
+  box-shadow: inset 0 0 0 1px rgb(0 0 0 / 10%);
+  border: 1px solid #e1e2e3;
+}
+
+.top-section__company-footer {
+  display: flex;
+  flex-direction: column;
+  padding: 34px 16px 0px;
+  height: 90px;
+  width: 160px;
+  border: 1px solid #e1e2e3;
+  border-top: none;
+  border-radius: 0 0 3px 3px;
+  position: relative;
+}
+.recruitment-announcement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recruitments {
+  display: flex;
+  justify-content: space-around;
+  width: 83%;
+  margin-bottom: 30px;
+}
+
+.recruitment {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.recruitment-image {
+  width: 250px;
+  height: 185px;
+  position: relative;
+  background-size: cover;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 1px rgb(0 0 0 / 10%);
+}
+
+.recruitment-title {
+  color: #333;
+  font-size: 18px;
+  width: 250px;
+  font-weight: 600;
+  line-height: 1.2;
+  max-height: 2.4em;
+  overflow: hidden;
+  text-align: left;
+  text-overflow: ellipsis;
+  word-break: break-word;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.recruitment-company {
+  color: #333;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+  overflow: hidden;
+  text-align: left;
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-top: 10px;
+}
+
+.response-rate {
+  border: 1px solid #00aead;
+  color: #00aead;
+  border-radius: 2px;
+  background: #fff;
+  display: inline-block;
+  width: 67px;
+  font-size: 10px;
+  font-weight: 600;
+  height: 19px;
+  line-height: 19px;
+  margin-top: 4px;
+  padding: 0 5px;
+}
+
+.location {
+  font-weight: 400;
+  color: #999;
+  font-size: 14px;
+  line-height: normal;
+  text-align: left;
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.incentive {
+  margin-top: 10px;
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.bookmark-icon {
+  position: absolute;
+  z-index: 0;
+  left: 230px;
+  top: 10px;
+  font-weight: 400;
+  color: #999;
+  cursor: pointer;
+}

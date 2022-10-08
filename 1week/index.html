@@ -15,55 +15,289 @@
       src="https://kit.fontawesome.com/d88055e7df.js"
       crossorigin="anonymous"
     ></script>
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="http://kenwheeler.github.io/slick/slick/slick-theme.css"
+    />
   </head>
   <body>
     <header>
       <div class="header">
         <div class="left-side">
-          <i class="fa-solid fa-bars"></i>
-          <h1 class="logo">wanted</h1>
+          <i class="fa-solid fa-bars cursor"></i>
+          <h1 class="logo cursor">wanted</h1>
         </div>
         <nav class="header-nav">
           <ul>
-            <li>채용</li>
-            <li>이벤트</li>
-            <li>직군별 연봉</li>
-            <li>이력서</li>
-            <li>커뮤니티</li>
-            <li>프리랜서</li>
-            <li>AI 합격예측</li>
+            <li><span class="none">채용 </span></li>
+            <li><span class="none">이벤트 </span></li>
+            <li><span class="none">직군별 연봉 </span></li>
+            <li><span class="none">이력서 </span></li>
+            <li><span class="sup-new">커뮤니티 </span></li>
+            <li><span class="none">프리랜서 </span></li>
+            <li><span class="sup-beta">AI 합격예측 </span></li>
           </ul>
         </nav>
         <div class="right-side">
-          <i class="fa-solid fa-magnifying-glass"></i>
-          <span>회원가입/로그인</span>
+          <i class="fa-solid fa-magnifying-glass cursor"></i>
+          <span class="cursor">회원가입/로그인</span>
           <span>|</span>
-          <button>기업 서비스</button>
+          <button class="cursor">기업 서비스</button>
         </div>
       </div>
     </header>
     <main>
-      <section class="banner">
-        <div class="banner-descript">
-          <div class="banner-descript__text">
-            <span class="banner-descript__title"
-              >단 4주! 백엔드 신입딱지 떼기</span
-            >
-            <sapn class="banner-descript__descript"
-              >프리온보딩 백엔드 코스</sapn
-            >
-            <div class="line">1</div>
-            <a href="" class="banner-link">바로가기 ></a>
+      <section class="main-banner">
+        <div class="banners">
+          <div class="banner">
+            <img
+              src="https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fstatic.wanted.co.kr%2Fimages%2Fbanners%2F1851%2F62d57330.jpg&w=1060&q=100"
+              alt=""
+              width="100%"
+              height="300px"
+              class="banner-image"
+            />
+            <div class="banner-descript">
+              <div class="banner-descript__text">
+                <span class="banner-descript__title"
+                  >기업이 원하는 프론트엔드 개발자 되기</span
+                >
+                <span class="banner-descript__descript"
+                  >프리온보딩 프론트엔드 코스</span
+                >
+                <div class="line">1</div>
+                <a href="" class="banner-link">바로가기 ></a>
+              </div>
+            </div>
+          </div>
+          <div class="banner">
+            <img
+              src="https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fstatic.wanted.co.kr%2Fimages%2Fbanners%2F1825%2Fb93ecf4e.jpg&w=1060&q=100"
+              alt=""
+              width="100%"
+              height="300px"
+              class="banner-image"
+            />
+            <div class="banner-descript">
+              <div class="banner-descript__text">
+                <span class="banner-descript__title"
+                  >마키나락스에 세로 들어와!</span
+                >
+                <span class="banner-descript__descript">
+                  적극 채용 중인 포지션을 영상으로 확인하세요!
+                </span>
+                <div class="line">1</div>
+                <a href="" class="banner-link">바로가기 ></a>
+              </div>
+            </div>
+          </div>
+          <div class="banner">
+            <img
+              src="https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fstatic.wanted.co.kr%2Fimages%2Fbanners%2F1852%2F41073f1a.jpg&w=1060&q=100"
+              alt=""
+              width="100%"
+              height="300px"
+              class="banner-image"
+            />
+            <div class="banner-descript">
+              <div class="banner-descript__text">
+                <span class="banner-descript__title"
+                  >단 4주! 백엔드 신입딱지 떼기</span
+                >
+                <span class="banner-descript__descript"
+                  >프리온보딩 백엔드 코스</span
+                >
+                <div class="line">1</div>
+                <a href="" class="banner-link">바로가기 ></a>
+              </div>
+            </div>
+          </div>
+          <div class="banner">
+            <img
+              src="https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fstatic.wanted.co.kr%2Fimages%2Fbanners%2F1843%2F6e4ca95f.jpg&w=1060&q=100"
+              alt=""
+              width="100%"
+              height="300px"
+              class="banner-image"
+            />
+            <div class="banner-descript">
+              <div class="banner-descript__text">
+                <span class="banner-descript__title"
+                  >원티드긱스 <개발자의 달>
+                </span>
+                <span class="banner-descript__descript">
+                  프리랜서 개발자를 위한 이벤트
+                </span>
+                <div class="line">1</div>
+                <a href="" class="banner-link">바로가기 ></a>
+              </div>
+            </div>
+          </div>
+          <div class="banner">
+            <img
+              src="https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fstatic.wanted.co.kr%2Fimages%2Fbanners%2F1791%2F19d8e5bf.jpg&w=1060&q=100"
+              alt=""
+              width="100%"
+              height="300px"
+              class="banner-image"
+            />
+            <div class="banner-descript">
+              <div class="banner-descript__text">
+                <span class="banner-descript__title"
+                  >우리 회사를 소개합니다</span
+                >
+                <sapn class="banner-descript__descript"
+                  >원티드가 들려주는 진짜 회사이야기</sapn
+                >
+                <div class="line">1</div>
+                <a href="" class="banner-link">바로가기 ></a>
+              </div>
+            </div>
+          </div>
+          <div class="banner">
+            <img
+              src="https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fstatic.wanted.co.kr%2Fimages%2Fbanners%2F1835%2F487d8bb0.jpg&w=1060&q=100"
+              alt=""
+              width="100%"
+              height="300px"
+              class="banner-image"
+            />
+            <div class="banner-descript">
+              <div class="banner-descript__text">
+                <span class="banner-descript__title"
+                  >Startup Lead Gruop Coaching</span
+                >
+                <span class="banner-descript__descript"
+                  >스타트업 팀장을 위한 그룹 코칭</span
+                >
+                <div class="line">1</div>
+                <a href="" class="banner-link">바로가기 ></a>
+              </div>
+            </div>
+          </div>
+          <div class="banner">
+            <img
+              src="https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fstatic.wanted.co.kr%2Fimages%2Fbanners%2F1850%2F43625ed8.jpg&w=1060&q=100"
+              alt=""
+              width="100%"
+              height="300px"
+              class="banner-image"
+            />
+            <div class="banner-descript">
+              <div class="banner-descript__text">
+                <span class="banner-descript__title">10월 원티드살롱</span>
+                <span class="banner-descript__descript"
+                  >HR담당자를 위한 네트워킹</span
+                >
+                <div class="line">1</div>
+                <a href="" class="banner-link">바로가기 ></a>
+              </div>
+            </div>
+          </div>
+          <div class="banner">
+            <img
+              src="https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fstatic.wanted.co.kr%2Fimages%2Fbanners%2F1844%2F3d999be3.jpg&w=1060&q=100"
+              alt=""
+              width="100%"
+              height="300px"
+              class="banner-image"
+            />
+            <div class="banner-descript">
+              <div class="banner-descript__text">
+                <span class="banner-descript__title"
+                  >[FREE] GDSC Job Fair Live</span
+                >
+                <span class="banner-descript__descript"
+                  >국내 최고 스타트업 채용소식을 볼 수 있는 기회!</span
+                >
+                <div class="line">1</div>
+                <a href="" class="banner-link">바로가기 ></a>
+              </div>
+            </div>
+          </div>
+          <div class="banner">
+            <img
+              src="https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fstatic.wanted.co.kr%2Fimages%2Fbanners%2F1853%2F2464b111.jpg&w=1060&q=100"
+              alt=""
+              width="100%"
+              height="300px"
+              class="banner-image"
+            />
+            <div class="banner-descript">
+              <div class="banner-descript__text">
+                <span class="banner-descript__title"
+                  >리텐션 높이는 '아하 모먼트'를 찾아서</span
+                >
+                <span class="banner-descript__descript"
+                  >성공을 리드하는 번개장터 마케터</span
+                >
+                <div class="line">1</div>
+                <a href="" class="banner-link">바로가기 ></a>
+              </div>
+            </div>
+          </div>
+          <div class="banner">
+            <img
+              src="https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fstatic.wanted.co.kr%2Fimages%2Fbanners%2F1826%2F849c1703.jpg&w=1060&q=100"
+              alt=""
+              width="100%"
+              height="300px"
+              class="banner-image"
+            />
+            <div class="banner-descript">
+              <div class="banner-descript__text">
+                <span class="banner-descript__title"
+                  >롯데헬스케어에 세로들어와!</span
+                >
+                <span class="banner-descript__descript"
+                  >적극 채용 중인 포지션을 영상으로 확인하세요!</span
+                >
+                <div class="line">1</div>
+                <a href="" class="banner-link">바로가기 ></a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
-      <section class="slide"></section>
+      <!-- <section class="slide"></section> -->
       <section class="career-insight">
         <span class="title"
           >나에게 필요한 커리어 인사이트
-          <i class="fa-duotone fa-circle-question"></i>
+          <i class="fa-regular fa-circle-question"></i>
         </span>
-        <div class="career-insight__buttons"></div>
+        <div class="career-insight__buttons">
+          <div class="career-insight__button"><span>리더십</span></div>
+          <div class="career-insight__button"><span>라이프스타일</span></div>
+          <div class="career-insight__button"><span>인간관계</span></div>
+          <div class="career-insight__button"><span>취업/이직</span></div>
+          <div class="career-insight__button"><span>회사생활</span></div>
+          <div class="career-insight__button"><span>IT/기술</span></div>
+          <div class="career-insight__button"><span>커리어고민</span></div>
+          <div class="career-insight__button"><span>조직문화</span></div>
+          <div class="career-insight__button"><span>개발</span></div>
+          <div class="career-insight__button"><span>데이터</span></div>
+          <div class="career-insight__button"><span>MD</span></div>
+          <div class="career-insight__button"><span>HR</span></div>
+          <div class="career-insight__button"><span>UX/UI</span></div>
+          <div class="career-insight__button"><span>노무</span></div>
+          <div class="career-insight__button"><span>디자인</span></div>
+          <div class="career-insight__button"><span>서비스기획</span></div>
+          <div class="career-insight__button"><span>브랜딩</span></div>
+          <div class="career-insight__button"><span>마케팅</span></div>
+          <div class="career-insight__button"><span>경영/전략</span></div>
+          <div class="career-insight__button"><span>콘텐츠 제작</span></div>
+        </div>
         <div class="career-insight__contents">
           <div class="career-insight__content">
             <img
@@ -295,6 +529,7 @@
             <img
               src="https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fstatic.wanted.co.kr%2Fimages%2Fevents%2F2422%2Ffeb067d4.jpg&w=800&q=75"
               alt=""
+              class="article-image"
             />
             <span class="article-content__title"
               >기업의 성공을 리드하는 번개장터 마케터의 데이터</span
@@ -530,5 +765,6 @@
         </select>
       </div>
     </footer>
+    <script src="./index.js"></script>
   </body>
 </html>

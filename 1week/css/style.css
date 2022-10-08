@@ -26,3 +26,8 @@ i {
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
 }
+
+.slick-prev:before,
+.slick-next:before {
+  color: #444444;
+}
