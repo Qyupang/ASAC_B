@@ -1,0 +1,288 @@
+body{
+    margin: 0;
+    width: 100vw;
+    font-family: 'Pretendard-Regular';
+}
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar{
+    position: sticky;
+    width: 1060px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: space-between;
+}
+ul{
+    list-style : none;
+}
+
+.main{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.main img{
+    width: 17px;
+    height: 14px;
+    margin-right: 10px;
+    margin-top: 7px;
+}
+
+.main p{
+    font-size: 21px;
+    align-items: center;
+}
+
+.nav_menu{
+    font-size: 14px;
+    padding: 0px;
+    display: flex;
+}
+
+.nav_menu a{
+    display: inline-block;
+    padding: 15px;
+    color: #333333;
+}
+
+.nav_menu a:hover{
+    border-bottom: 1.5px solid gray;
+}
+
+.nav_service ul{
+    align-items: center;
+    padding: 0px 10px;
+}
+
+
+.nav_service li{
+    display: inline-block;
+    width: auto;
+}
+
+.nav_service button{
+    padding : 0px 5px;
+    border: none;
+    background-color: white;
+    cursor:pointer
+}
+
+#join{
+    font-size: 14px;
+    padding: 0px 3px;
+}
+#service a{
+    color: gray;
+    align-items: center;
+    display: center;
+    justify-self: center;
+    font-size: 13px;
+    border :0.5px solid gray;
+    line-height: 30px;
+    border-radius: 15px;
+}
+#nothing{
+    color: gray;
+    font-size: 3px;
+    margin : 0px 15px 0px 15px;
+}
+
+/* 상단 style */
+section{
+    width: 1060px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.first_image{
+    justify-content: center;
+    padding: 25px 0px 70px;
+    width: 1060px;
+    height: 300px;
+}
+
+
+
+
+.section2{
+    flex-direction: column;
+}
+
+.section2 div h2{
+    display: flex;
+}
+.title2{
+    width: 1060px;
+    height: 30px;
+    font-size: 22px;
+    justify-content: center;
+}
+.button_1{
+    align-items: center;
+    justify-content: center;
+}
+.button_1 button{
+    font-family: 'Pretendard-Regular';
+    font-size: 15px;     
+    background-color: #ffffff;      
+    height: 40px;     
+    border: 1px solid #e1e2e3;     
+    border-radius: 18px;     
+    padding: 9px 22px;    
+    cursor:pointer;
+    align-items: center;
+}
+.button_span{
+    color: #333333;
+}
+/* 이미지 설명 출처 CSS*/
+
+.img_news{
+    display: flex;
+    width: 250px;
+    height: 316.59px;
+    margin: 50px 10px 10px 0px;
+}
+
+.first_nomargin img{
+    margin: 10px 10px 10px 0px;
+}
+.img_news img{
+    width: 250px;
+    height: 159.59px;
+}
+.min_title1{
+    height: 24px;
+    font-size: 16px;
+    margin: 17px 0px 8px;
+    color: #333333;
+}
+.min_main1{
+    height: 42px;
+    font-size: 13px;
+    margin: 0px;
+    color: #AAAAAA;
+}
+.new_clean1{
+    display: flex;
+    margin: 12px 0px 0px;
+    align-items: center;
+}
+.new_clean1 img{
+    width: 30px;
+    height: 30px;
+}
+.new_clean1 p{
+    font-size: 13px;
+    margin: 0px 0px 0px 10px;
+    color: #AAAAAA;
+}
+
+.for_clean1{
+    display: flex;
+    padding: 0px;
+}
+/* 두번째 세션 끝 */
+/*세번째 세션 수정*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer*/
+footer{
+    width: 1060px;
+    margin: auto;
+    padding: 18px 0px 65px;
+}
+
+.last_div1{
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.last_list{
+    display: flex;
+    padding: 0px;
+    width: 790px;
+    height: 39px;
+    align-items: center;
+}
+.last_list li{
+    margin-right: 45px;
+    font-size: 15px;
+}
+
+.sns_link{
+    width: 270px;
+    height: 39px;
+    display: flex;
+    padding: 0px;
+    justify-content: right;
+}
+
+.sns_link li{
+    margin-left: 14px;
+    color: gray;
+    width: 20px;
+    height: 20px;
+}
+.last_div2{
+    width: 1060px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 25px 0px 0px;
+}
+
+#minipic{
+    width: 20px;
+    height: 20px;
+}
+
+.address{
+    font-size: 12px;
+    margin-right: 40px;
+    color: #767676;
+}
+
+.lang_select{
+    height: 40px;
+    width: 200px;
+    padding: 0px 45px;
+    background-color: #f2f4f7;
+    border: none;
+}
+
+.last_div2 div{
+    height: 40px;
+    background-color: #f2f4f7;
+    /* 한국 국기가 밑으로 안내려옴 */
+}
