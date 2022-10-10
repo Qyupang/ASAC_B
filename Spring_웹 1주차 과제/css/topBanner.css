@@ -30,10 +30,8 @@
 .topBanner_buttonIcon{
     width: 100%;
     display: flex;
-    align-items: inherit;
-    justify-content: inherit;
 }
-.topBanner_buttonIcon_Svg{
+.topBanner_buttonIcon_svg{
     overflow: hidden;
     user-select: none;
     width: 1em;
@@ -43,19 +41,18 @@
     flex-shrink: 0;
 }
 
-.slick-list{
+.slick_list{
     position: relative;
     overflow: hidden;
     display: block;
-    margin: 0;
 }
-.slick-track{
+.slick_track{
     position: relative;
     left: 0;
     top: 0;
     display: block;
 }
-.slick-slide{
+.slick_slide{
     padding: 0 12px;
     box-sizing: content-box;
     position: relative;
@@ -64,12 +61,16 @@
     height: 100%;
     min-height: 1px;
 }
+.slick_slide_box{
+    display: flex;
+    justify-content: center;
+}
 
-.slider-image{
+.slider_image{
     position: relative;
     padding-bottom: 28.3%;
 }
-.slider-image-image{
+.slider_image_image{
     display: inline-block;
     position: absolute;
     width: 100%;
@@ -81,18 +82,18 @@
     vertical-align: middle;
 }
 
-.slide-text{
+.slider_text{
     position: absolute;
     bottom: 28px;
     width: 330px;
     height: 146px;
     border-radius: 4px;
     background-color: #fff;
-    opacity: 0;
+    opacity: 1;
     text-align: left;
     left: 34px;
 }
-.slide-text>h2 {
+.slider_text>h2 {
     margin: 20px 20px 0 20px;
     font-size: 20px;
     font-weight: 700;
@@ -102,7 +103,7 @@
     white-space: nowrap;
     overflow: hidden;
 }
-.slide-text>h3 {
+.slider_text>h3 {
     margin: 0 20px;
     height: 44px;
     font-size: 14px;
@@ -112,7 +113,7 @@
     white-space: nowrap;
     overflow: hidden;
 }
-.slider-text-divider{
+.slider_text_divider{
     display: block;
     height: 1px;
     margin: 0;
@@ -121,7 +122,8 @@
     background-color: #ececec;
     box-sizing: content-box;
 }
-.slider-text-button{
+
+.slider_text_button{
     margin: 6px 0 0 13px;
     font-size: 14px;
     font-weight: 700;
@@ -140,7 +142,7 @@
     border: none;
     cursor: pointer;
 }
-.slider-text-button-label{
+.slider_text_button_label{
     width: 100%;
     font-size: inherit;
     font-weight: inherit;
@@ -149,19 +151,20 @@
     justify-content: inherit;
     color: inherit;
     line-height: 1;
+    font-size: 14px;
 }
-.slider-text-button-endIcon{
+.slider_text_button_endIcon{
     margin-top: -2px;
     margin-right: -1px;
     margin-left: 2px;
 }
-.slider-text-button-svgIcon{
+.slider_text_button_svgIcon{
     width: 100%;
     display: flex;
     align-items: inherit;
     justify-content: inherit;
 }
-.slider-text-button-svgIconS-svg{
+.slider_text_button_svgIconS_svg{
     overflow: hidden;
     user-select: none;
     width: 1em;

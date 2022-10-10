@@ -1,1 +1,5 @@
-@import url('./css/topBanner.css');
+@import url('./topBanner.css');
+
+main{
+    padding: 25px 0 0 25px;
+}
