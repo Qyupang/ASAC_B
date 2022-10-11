@@ -5,6 +5,9 @@
 @import url('./css/mainDiv.css');
 @import url('./css/section.css');
 
+@import url('./css/modal.css');
+@import url('./css/singin.css');
+
 :root {
     --nav-height: 50px;
     --button-color: #eeeeee;
@@ -23,6 +26,7 @@ body {
     line-height: 1.42857143;
     color: #333333;
     background-color: #f8f8fa;
+    overflow-x: hidden
 }
 
 button {

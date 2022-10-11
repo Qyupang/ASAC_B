@@ -1,0 +1,302 @@
+div {
+    display: block;
+}
+
+input {
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+input, input:focus, input[type=text], textarea {
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}
+input, input:focus {
+    outline: none!important;
+}
+input[type="password" i] {
+    -webkit-text-security: disc !important;
+    padding: 1px 2px;
+}
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+input[type="email" i] {
+    padding: 1px 2px;
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+    cursor: default;
+}
+
+g {
+    fill: none;
+    fill-rule: evenodd;
+    stroke: rgb(255, 255, 255);
+    stroke-width: 2;
+}
+
+.modalHeader{
+    border-bottom: 0;
+    height: 54px;
+    padding: 16px 20px;
+    position: relative;
+    color: #333;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+.modalHeader button{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    padding: 15px;
+    line-height: 0;
+}
+
+.modalBody{
+    padding: 20px;
+    background-color
+}
+
+.textPanel_className{
+    text-align: center;
+    word-break: break-word;
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+.textPanel_className h1{
+    line-height: 1.54;
+    font-size: 26px;
+    font-weight: 600;
+    color: #333;
+}
+.textPanel_className h2{
+    margin-top: 16px;
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: 400;
+    color: #666;
+}
+
+.inputPanel_wrapper{
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.inputPanel_password{
+    appearance: none;
+    position: absolute;
+    z-index: -1;
+    top: -10px;
+    left: 0;
+    padding: 0;
+    height: 0;
+    border: 1px solid transparent;
+}
+
+.style_wrapper_InputPanel_email{
+    padding-bottom: 14px;
+    position: relative;
+    color: #767676;
+}
+.style_label{
+    font-size: 14px;
+    font-weight: 400;
+}
+.style_body{
+    margin-top: 11px;
+}
+.style_body input[type=email], .style_body input[type=text]{
+    width: 100%;
+    height: 50px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 5px;
+    border: 1px solid #e1e2e3;
+    background-color: #fff;
+    font-size: 15px;
+    color: #333;
+    appearance: none;
+    resize: none;
+}
+.style_guidance{
+    color: #767676;
+    bottom: 0;
+    margin-top: 6px;
+    font-size: 12px;
+}
+
+.inputPanel_buttons{
+}
+.style_wrapper_email_login_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 54px;
+    border: 0;
+    border-radius: 27px;
+    background-color: #36f;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.style_wrapper_email_login_button{
+    margin-right: 10px;
+}
+
+.inputPanel_divider::after{
+    display: block;
+    content: "or";
+    color: #969696;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    text-align: center;
+    margin: 13px auto;
+    white-space: pre;   
+}
+.inputPanel_socialLgins{
+    text-align: center;
+    color: #767676;
+    margin-bottom: 17px;
+    font-size: 14px;
+}
+
+.inputPanel_socialWrapper{
+    width: 100%;
+    height: 84px;
+    margin: auto;
+}
+.inputPanel_socialButton{
+    width: 24%;
+    display: inline-block;
+    position: relative;
+}
+.style_wrapper_socialLogin_button_kakao{
+    background-color: #fee500;
+    width: 56px;
+    height: 56px;
+    margin: 0 auto 8px;
+    color: #737373;
+    border-radius: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.style_wrapper_socialLogin_button_kakao svg{
+    margin-right: 0;
+}
+.input_Panel_socialTitle{
+    width: 70%;
+    left: 14.5%;
+    position: absolute;
+    top: 62px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #666;
+    text-align: center;
+}
+.style_wrapper_socialLogin_button_facebook{
+    background-color: #1877f2;
+    width: 56px;
+    height: 56px;
+    margin: 0 auto 8px;
+    color: #737373;
+    border-radius: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.style_wrapper_socialLogin_button_facebook svg{
+    margin-right: 0;
+}
+.style_wrapper_socialLogin_button_google{
+    border: 1px solid #e1e2e3;
+    background-color: #fff;
+    width: 56px;
+    height: 56px;
+    margin: 0 auto 8px;
+    color: #737373;
+    border-radius: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.style_wrapper_socialLogin_button_google svg{
+    margin-right: 0;
+}
+.style_wrapper_socialLogin_button_apple{
+    background-color: #000;
+    width: 56px;
+    height: 56px;
+    margin: 0 auto 8px;
+    color: #737373;
+    border-radius: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.style_wrapper_socialLogin_button_apple svg{
+    margin-right: 0;
+}
+
+.style_wrapper{
+    margin-top: 26px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 18px;
+    color: #999;
+}
+.style_wrapper a{
+    color: #3336ff;
+    text-decoration: underline;
+}
