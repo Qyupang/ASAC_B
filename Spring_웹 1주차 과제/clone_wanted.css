@@ -26,7 +26,11 @@ body {
     line-height: 1.42857143;
     color: #333333;
     background-color: #f8f8fa;
-    overflow-x: hidden
+    overflow-x: hidden;
+}
+
+main{
+    padding-top: 55px;
 }
 
 button {

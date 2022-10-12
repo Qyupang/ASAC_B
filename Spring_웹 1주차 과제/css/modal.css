@@ -65,6 +65,20 @@ g {
     stroke-width: 2;
 }
 
+.modal_root{
+    display: none;
+    background-color: #FFF;
+    border-radius: 5px;
+    width: 400px;
+    max-height: calc(100vh - 150px);
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+}
+.modal_root::-webkit-scrollbar { 
+    display: none;
+    width: 0 !important;
+}
+
 .modalHeader{
     border-bottom: 0;
     height: 54px;
@@ -87,7 +101,6 @@ g {
 
 .modalBody{
     padding: 20px;
-    background-color
 }
 
 .textPanel_className{
@@ -135,6 +148,9 @@ g {
     font-size: 14px;
     font-weight: 400;
 }
+#login_email:focus{
+    border-color: #002fdb;
+}
 .style_body{
     margin-top: 11px;
 }
@@ -158,8 +174,6 @@ g {
     font-size: 12px;
 }
 
-.inputPanel_buttons{
-}
 .style_wrapper_email_login_button{
     display: flex;
     justify-content: center;
@@ -173,9 +187,10 @@ g {
     font-weight: 600;
     color: #fff;
     cursor: pointer;
-}
-.style_wrapper_email_login_button{
     margin-right: 10px;
+}
+.style_wrapper_email_login_button:hover{
+    background-color: #002fdb;
 }
 
 .inputPanel_divider::after{
