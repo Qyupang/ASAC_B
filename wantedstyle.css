@@ -2,7 +2,48 @@ body{
     margin: 0;
     width: 100vw;
     font-family: 'Pretendard-Regular';
+    /* overflow-x: hidden  ; */
 }
+.slick-prev{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 120px;
+    width: 30px;
+    height: 60px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255, 0.5)!important;
+    font-size: 16px;
+    z-index: 10;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+    cursor: pointer;
+    left: calc((100% - 1210px)/2);
+}
+
+.slick-next{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 120px;
+    width: 30px;
+    height: 60px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255, 0.5)!important;
+    font-size: 16px;
+    z-index: 10;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+    cursor: pointer;
+    right: calc((100% - 1200px)/2);
+}
+
 @font-face {
     font-family: 'Pretendard-Regular';
     src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
@@ -13,16 +54,22 @@ a{
     text-decoration: none;
     color: black;
 }
-
+.nav_size{
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
 .navbar{
-    position: sticky;
+    position: fixed;
     width: 1060px;
     height: 50px;
-    margin: auto;
+    background-color: white;
     display: flex;
     align-items: center;
-    background-color: white;
     justify-content: space-between;
+    z-index: 10;
+    margin:auto;
+
 }
 ul{
     list-style : none;
@@ -71,7 +118,9 @@ ul{
     display: inline-block;
     width: auto;
 }
-
+#service a{
+    padding: 5px 10px;
+}
 .nav_service button{
     padding : 0px 5px;
     border: none;
@@ -101,20 +150,25 @@ ul{
 
 /* 상단 style */
 section{
-    width: 1060px;
+    width: 1060px;  
     margin: auto;
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
 
-.first_image{
-    justify-content: center;
-    padding: 25px 0px 70px;
+.section1 .first_image{
     width: 1060px;
     height: 300px;
+    margin: 100px auto;
+    display: flex;
 }
 
+.section1 .first_image a{
+    width: 1060px;
+    height: 300px;
 
+}
 
 
 .section2{
@@ -123,30 +177,39 @@ section{
 
 .section2 div h2{
     display: flex;
+    align-items: center;
 }
 .title2{
     width: 1060px;
     height: 30px;
     font-size: 22px;
     justify-content: center;
+    display: flex;
 }
 .button_1{
-    align-items: center;
-    justify-content: center;
+    width: 20000px;
 }
 .button_1 button{
     font-family: 'Pretendard-Regular';
     font-size: 15px;     
     background-color: #ffffff;      
-    height: 40px;     
+    /* height: 40px;    */
+    /* width: auto ;   */
     border: 1px solid #e1e2e3;     
-    border-radius: 18px;     
-    padding: 9px 22px;    
+    border-radius: 20px;     
+    padding: 9px 22px;
     cursor:pointer;
+    display: inline-flex;
     align-items: center;
+    justify-content: center;
+    
+
 }
 .button_span{
+    font-size: 15px;
     color: #333333;
+    /* width: 51px; */
+    /* height: 21px; */
 }
 /* 이미지 설명 출처 CSS*/
 
@@ -194,27 +257,159 @@ section{
 .for_clean1{
     display: flex;
     padding: 0px;
+    margin-bottom: 50px;
 }
 /* 두번째 세션 끝 */
+
+.for_center1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.more_info{
+    background-color: white;
+    border-radius: 22px;
+    width: 345px;
+    height: 50px;
+    margin: 0px 357.5px 50px;
+    padding: 0px 27px;
+    border : solid 0.2px #808080;
+}
+.more_info:hover{
+    cursor: pointer;
+}
+.more_info span{
+    font-family: 'Pretendard-Regular';
+    font-size: 16px;
+}
+.mini_button button{
+    background-image : linear-gradient(90deg,#01a9fe -12%,#2f5fef 37%,#046afe 72%,#00d2dd 110%);
+    border-radius: 50px;
+    width: 1060px;
+    height: 64px;
+    padding: 21px 30px;
+    border-color: white;
+}
+.mini_button{
+    margin: 50px;
+}
+.mini_button span{
+    font-family: 'Pretendard-Regular';
+    color: white;
+    font-size: 17px;
+    align-items: center;
+}
+
+
+
 /*세번째 세션 수정*/
+.for_test_and_margin .img_news{
+    margin-top: 0px;
+}
 
 
+/* 중간 아래쪽  */
+.for_flex{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.img_size4 img{
+    width: 522px;
+    height: 273px;
+    object-fit: cover;
+}
+.button_tag button{
+    border : white;
+    width: 500px;
+    background-color: white;
+}
 
+.img_p{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Pretendard-Regular';
+    margin: 30px;
+}
+.last p{
+    margin: 0px;
+}
+.img_p img{
+    width: 159px;
+    height: 40px;
 
+}
+.last{
+    display: flex;
+    flex-direction: column;
+    width: 515px;
+    height: 137px;
+}
 
+.last_img img{
+    width: 544px;
+    height: 158px;
+    justify-content: center;
 
+}
+.x14x{
+    font-size: 14px;
+}
+.last_color{
+    width: 1650px;
+    height: 278px;
+    background-color: #f7f7f7;
+    margin: 60px 0px 60px 0px;
+}
 
+.last button{
+    width: 260px;
+    height: 50px;
+    margin: 25px 0px 0px;
+    padding: 0px 27px;
+    background-color: #3366ff;
+    color: white;
+    border-radius: 25px;
+    border-color: white;
+}
+.mini_img3 img{
+    width: 40px;
+    height: 40px;
+}
 
+.mini_img3{
+    flex-direction: column;
+}
+.button_12 button{
+    display: flex;
+    background-color: white;
+    border-color: white;
+    border : none;
+}
+.button_12 button:hover{
+    cursor: pointer;
+}
 
-
-
-
-
-
-
-
-
-/* footer*/
+.button_clean div{
+    flex-direction: column;
+    width: 265px;
+    height: 100px;  
+    border-right : 1px solid #ececec;
+}
+.button_clean{
+    border : 1px solid #ececec;
+}
+.button_12{
+    border-color: gray;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    /** 버튼이 가운대로 안오고 색지정도 안됨 **/
+}
+/* footer ==========================================*/
 footer{
     width: 1060px;
     margin: auto;
