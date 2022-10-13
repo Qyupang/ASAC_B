@@ -91,3 +91,8 @@ document.getElementById('buttonLogin_id').addEventListener('click', function () 
     // 모달창 띄우기
     modal('modal_login');
 });
+
+document.getElementById('jobSuggestion_loginButton').addEventListener('click', function () {
+    // 모달창 띄우기
+    modal('modal_login');
+});

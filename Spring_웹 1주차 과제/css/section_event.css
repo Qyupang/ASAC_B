@@ -1,0 +1,102 @@
+.section_eventBox{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section_event{
+    max-width: 1060px;
+    width: 87.72%;
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section_event_body_ul{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.section_event_body_li{
+    width: 538px;
+    padding: 8px;
+}
+.section_event_body_li_imgBox{
+    position: relative;
+    height: auto;
+    padding-bottom: 52.3%;
+    padding-left: 0;
+}
+
+.section_event_body_li_imgBox > img{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 4px;
+    object-fit: cover;
+    outline: 1px solid rgba(0,0,0,.05);
+    outline-offset: -1px;
+}
+
+.section_event_body_li_eventlabel{
+    margin-top: 12px;
+    display: flex;
+}
+.section_event_body_li_eventlabel_online{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 0 6px;
+    height: 20px;
+    background-color: #1c1c1c;
+    margin-right: 5px;
+    color: #fff;
+    
+    font-size: 11px;
+    font-weight: 700;
+    line-height: normal;
+
+    border: 1px solid #1c1c1c;
+    border-radius: 2px;
+}
+.section_event_body_li_eventlabel_vod{
+    color: #5866dc;
+    border-color: #5866dc;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 2px;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: normal;
+    padding: 0 6px;
+}
+.section_event_body_li_eventlabel_networking{
+    color: #a149e4;
+    border-color: #a149e4;
+    display: inline-flex;
+    align-items: center;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 2px;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: normal;
+    padding: 0 6px;
+}
+
+.section_event_body_li_eventlabel_title{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #333;
+    margin-top: 8px;
+}

@@ -1,0 +1,109 @@
+.section_articleDiv{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section_article{
+    max-width: 1060px;
+    width: 87.72%;
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 1px solid #aaa;
+}
+
+.section_article_title_title, .section_article_titleAll, .section_article_header{
+    display: flex;
+    justify-content: center;
+}
+
+.section_article_header{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+.section_article_ButtonBox{
+    display: flex;
+    align-items: center;
+}
+.section_article_button{
+    display: inline-block;
+    border: 1px solid rgb(222, 222, 222);
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    min-width: 36px;
+    min-height: 36px;
+}
+.section_article_buttonSvg{
+    width: 1em;
+    height: 1em;
+    display: inline-block;    
+}
+.section_article_button:hover{
+    border: 1px solid #aaa;
+}
+
+.section_article_title{
+}
+.section_article_titleAll{
+    font-size: 15px;
+    font-weight: 500;
+    color: #767676;
+}
+.section_article_titleAll:hover{
+    color: #767676;
+}
+.section_article_titleAll > svg{
+    width: 1em;
+    height: 1em;
+}
+
+
+.section_article_body{
+}
+.section_article_body_ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.section_article_body_list{
+    padding: 10px;
+}
+.section_article_body_listImg{
+    width: 250px;
+    height: 175px;
+    position: relative;
+}
+
+.section_article_body_listImg > img{
+    display: block;
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+    outline: 1px solid rgba(0,0,0,.05);
+}
+.section_article_body_listTitle{
+    margin-top: 17px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #333;
+    text-overflow: ellipsis;
+    overflow:hidden;
+}
+
+.section_article_body_listTag{
+    margin-top: 13px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #333;
+    display: block;
+    overflow:hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

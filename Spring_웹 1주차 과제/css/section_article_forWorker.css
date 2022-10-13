@@ -1,0 +1,76 @@
+.section_article_forWorker {
+    max-width: 1060px;
+    width: 87.72%;
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section_article_body_listTime {
+    right: 9px;
+    bottom: 8px;
+    position: absolute;
+}
+
+.section_article_body_listTime>span {
+    display: inline-block;
+    padding: 0 10px;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, .5);
+    height: 24px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1.85;
+    color: #fff;
+}
+
+.section_article_forWorker_body_listName {
+    font-size: 14px;
+    margin: 5px 0;
+    font-weight: 600;
+    color: #333;
+    text-overflow: ellipsis;
+    margin-top: 14px;
+    overflow: hidden;
+}
+
+.section_article_forWorker_body_listTitle {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #333;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.section_article_forWorker_body_listTag {
+    margin-top: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #aaa;
+}
+
+.section_article_body_listLink>p {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 250px;
+}
+
+.section_jobSuggestion_button{
+    background-image: linear-gradient(90deg,#01a9fe -12%,#2f5fef 37%,#046afe 72%,#00d2dd 110%);
+    padding: 21px 30px;
+    font-size: 17px;
+    border-radius: 38.5px;
+    line-height: normal;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 700;
+    width: 100vw;
+    max-width: 1060px;
+}
