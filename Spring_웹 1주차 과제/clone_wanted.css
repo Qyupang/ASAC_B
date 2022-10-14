@@ -11,6 +11,8 @@
 @import url('./css/section_article_forWorker.css');
 @import url('./css/section_event.css');
 @import url('./css/section_subscribe.css');
+@import url('./css/section_link.css');
+@import url('./css/footer.css');
 
 :root {
     --nav-height: 50px;

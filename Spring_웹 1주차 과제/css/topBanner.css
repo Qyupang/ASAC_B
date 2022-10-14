@@ -45,6 +45,7 @@
     position: relative;
     overflow: hidden;
     display: block;
+    direction: ltr;
 }
 .slick_track{
     position: relative;

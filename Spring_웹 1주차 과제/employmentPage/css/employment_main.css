@@ -1,0 +1,32 @@
+@import url('./employment_header.css');
+@import url('./employment_jobContent.css');
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css");
+:root{
+    --employment_color_gray: #999;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard Variable", Pretendard, Roboto, "Noto Sans KR", "Segoe UI", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+button, a{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+
+.employment_page_width{
+    width: 1060px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

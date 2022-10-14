@@ -11,7 +11,7 @@ function modal(id) {
         top: '0px',
         width: '100%',
         height: '100%',
-        overflow: 'auto',
+        overflowY: 'hidden',
         // 레이어 색갈은 여기서 바꾸면 됨
         backgroundColor: 'rgba(0,0,0,0.4)'
     });
@@ -48,7 +48,7 @@ function modal(id) {
             left: '50%',
             transform: 'translate(-50%, -50%)',
             msTransform: 'translate(-50%, -50%)',
-            webkitTransform: 'translate(-50%, -50%)'
+            webkitTransform: 'translate(-50%, -50%)',
         });
 
         document.getElementById('modal_signin_closeButton').addEventListener('click', function () {
