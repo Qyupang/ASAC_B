@@ -24,20 +24,20 @@
     padding: 20px 0;
     display: flex;
     justify-content: center;
+    flex-direction: row;
 }
 
-.employment_jobContent_body {
-    padding-right: 20px;
-    margin: 10px 0;
+.employment_jobContent_asideBox{
+    width: 340px;
+    height: 324.73px;
 }
-
 .employment_jobContent_aside {
     display: flex;
     flex-direction: column;
-    width: 340px;
     padding: 24px 20px;
     border: 1px solid #e1e2e3;
     justify-content: center;
+    border-radius: 4px;
 }
 
 .employment_jobContent_aside_titleBox {
@@ -62,12 +62,13 @@
 .employment_jobContent_aside_body {
     display: flex;
     flex-direction: row;
-    width: 100vw;
+    width: 100%;
 }
 
 .employment_jobContent_aside_body>ul {
     list-style: none;
-    width: 100vw;
+    width: 100%;
+    margin: 24px 0;
 }
 
 .employment_jobContent_aside_body>ul>li {
@@ -80,6 +81,9 @@
 }
 
 .employment_jobContent_buttonBookMark {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
     width: 100%;
     height: 50px;
@@ -92,6 +96,11 @@
     color: #36f;
     text-align: center;
     margin: 10px 0;
+}
+.employment_jobContent_buttonBookMark_svgBox{
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
 }
 
 .employment_jobContent_buttonSupport {
@@ -112,7 +121,6 @@
     height: 30px;
     border-radius: 15px;
     border: 1px solid #e1e2e3;
-    margin: 10px 12px 10px 0;
     padding: 0 15px;
 }
 

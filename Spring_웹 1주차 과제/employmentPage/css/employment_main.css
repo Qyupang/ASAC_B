@@ -1,6 +1,12 @@
 @import url('./employment_header.css');
-@import url('./employment_jobContent.css');
+@import url('./employment_jobContent_Asider.css');
+@import url('./employment_jobContent_body.css');
+@import url('./employment_jobContent_title.css');
+@import url('./employment_list.css');
+@import url('./footer.css');
+
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css");
+
 :root{
     --employment_color_gray: #999;
 }
@@ -15,13 +21,25 @@ body{
     justify-content: center;
     flex-direction: column;
     overflow: scroll;
+    overflow-x: none;
 }
 
 button, a{
     cursor: pointer;
+    border: none;
+    background-color: transparent;
 }
 a{
     text-decoration: none;
+    color: #333;
+}
+ul{
+    list-style: none;
+}
+
+main{
+    display: flex;
+    justify-content: center;
 }
 
 .employment_page_width{
