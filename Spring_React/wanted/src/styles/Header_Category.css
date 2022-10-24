@@ -1,0 +1,9 @@
+.Header_Category_li{
+    padding: 15px;
+}
+
+.Header_Category_li > a{
+    font-size: 14px;
+    font-weight: 600;
+    opacity: 0.8;
+}
