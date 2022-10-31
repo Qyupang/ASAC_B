@@ -5,14 +5,14 @@ Header.js
 2022.10.21 박보민
  */
 
-import React from "react";
+import { Outlet, Link } from "react-router-dom";
 
-import "./../styles/Header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import logo from "./../assets/imgs/logo.png";
 
+import "./../styles/Header.css";
 import HeaderCategory from "./../components/HeaderCategory";
 
 const Header = () => {
@@ -24,13 +24,13 @@ const Header = () => {
             <button className="Header_Menu_Icon_button">
               <FontAwesomeIcon icon={faBars} className="Header_Menu_Icon" />
             </button>
-            <a href="https://www.wanted.co.kr/">
+            <Link to="/">
               <img
                 src={logo}
                 alt="wanted logo"
                 className="Header_Menu_LogoImg"
               />
-            </a>
+            </Link>
           </div>
           <div>
             <ul className="Header_Category_ul">
@@ -64,7 +64,9 @@ const Header = () => {
                 className="Header_Search_Icon"
               />
             </button>
-            <button className="Header_Singin_Button">회원가입/로그인</button>
+            <Link to={"/login"}>
+              <button className="Header_Singin_Button">회원가입/로그인</button>
+            </Link>
             <p className="Header_Button_pipe">|</p>
             <button className="Header_EnterpriseService_Button">
               기업 서비스

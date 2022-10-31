@@ -1,13 +1,14 @@
 .Main_Insight_Div{
     display: flex;
     justify-content: center;
-    padding: 60px 0;
 }
 .Main_Insight_Div_Div{
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 1060px;
+    padding: 60px 0;
+    border-bottom: 1px solid #e1e2e3;
 }
 
 .Main_Insight_Title_Div{

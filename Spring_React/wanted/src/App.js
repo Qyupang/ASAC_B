@@ -11,17 +11,37 @@ Development Environment
 */
 
 import React from "react";
+import { Route, Routes } from "react-router-dom";
 
 import "./App.css";
-import Header from "./pages/Header";
+import LayOut from "./pages/LayOut";
 import Main from "./pages/Main";
+import Login from "./pages/Login";
+
+import Lab from "./pages/Lab";
+import Terms from "./pages/Terms";
+import Privacy from "./pages/Privacy";
+import ServiceCenter from "./pages/ServiceCenter";
+import Detail from "./pages/Detail";
+
+import Test from "./pages/Test";
 
 const App = () => {
   return (
-    <div>
-      <Header />
-      <Main />
-    </div>
+    <Routes>
+      <Route element={<LayOut />}>
+        <Route path="/" element={<Main />} />
+      </Route>
+
+      <Route path="/login" element={<Login />} />
+      <Route path="/lab" element={<Lab />} />
+      <Route path="/terms" element={<Terms />} />
+      <Route path="/privacy" element={<Privacy />} />
+      <Route path="/servicecenter" element={<ServiceCenter />} />
+      <Route path="/detail" element={<Detail />} />
+
+      <Route path="/test" element={<Test />} />
+    </Routes>
   );
 };
 

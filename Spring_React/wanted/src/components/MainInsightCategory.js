@@ -1,37 +1,31 @@
 import React from "react";
 import "./../styles/Main_InsightCategory.css";
 import MainInsightCategoryButton from "./MainInsightCategoryButton";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faChevronLeft,
+  faChevronRight,
+  faEllipsis,
+} from "@fortawesome/free-solid-svg-icons";
+import dummy from "./../db/MainInsightCategory.json";
 
 const MainInsightCategory = () => {
-  const buttons = [
-    "조직문화",
-    "리더십",
-    "회사생활",
-    "라이프스타일",
-    "IT/기술",
-    "인간관계",
-    "취업/이직",
-    "커리어고민",
-    "HR",
-    "콘텐츠 제작",
-    "경영/전략",
-    "MD",
-    "UX/UI",
-    "노무",
-    "개발",
-    "브랜딩",
-    "데이터",
-    "디자인",
-    "서비스기획",
-    "마케팅",
-  ];
-  const buttonsList = buttons.map((button, index) => (
+  const buttonsList = dummy.buttons.map((button, index) => (
     <MainInsightCategoryButton key={index}>{button}</MainInsightCategoryButton>
   ));
 
   return (
     <div className="Main_InsightCategory_Div">
+      <button className="Main_InsightCategory_ActionButton Main_InsightCategory_ActionButton_Left">
+        <FontAwesomeIcon icon={faChevronLeft} />
+      </button>
       <div className="Main_InsightCategory_Buttons">{buttonsList}</div>
+      <button className="Main_InsightCategory_ActionButton Main_InsightCategory_ActionButton_Right">
+        <FontAwesomeIcon icon={faChevronRight} />
+      </button>
+      <button className="Main_InsightCategory_ActionButton Main_InsightCategory_ActionButton_more">
+        <FontAwesomeIcon icon={faEllipsis} />
+      </button>
     </div>
   );
 };

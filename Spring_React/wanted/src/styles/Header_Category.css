@@ -2,6 +2,10 @@
     padding: 15px;
 }
 
+.Header_Category_li:hover{
+    border-bottom: 3px solid rgb(200,200,200);
+}
+
 .Header_Category_li > a{
     font-size: 14px;
     font-weight: 600;

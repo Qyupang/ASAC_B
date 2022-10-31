@@ -2,21 +2,13 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
+
 import "./../styles/Main_SlideBanner.css";
 import MainSlideBannerImg from "./MainSlideBannerImg";
+import dummy from "./../db/MainSlideBanner.json";
 
 const MainSlideBanner = () => {
-  const images = [
-    {
-      id: 1,
-      src: "https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fstatic.wanted.co.kr%2Fimages%2Fbanners%2F1791%2F19d8e5bf.jpg&w=1060&q=100",
-      alt: "우리 회사를 소개합니다.",
-      title: "우리 회사를 소개합니다.",
-      contents: "'회사'에 대한 정보, 원티드가 찾아드릴게요!",
-      href: "https://www.wanted.co.kr/events/employeebranding",
-    },
-  ];
-  const imagesList = images.map((image) => (
+  const imagesList = dummy.images.map((image) => (
     <MainSlideBannerImg
       key={image.id}
       src={image.src}

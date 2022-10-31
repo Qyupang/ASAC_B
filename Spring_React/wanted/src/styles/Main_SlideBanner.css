@@ -19,10 +19,10 @@
     top: 140px;
 }
 .Main_SlideBanner_LeftButton{
-    left: 150px
+    left: calc((100% - 1210px)/2);
 }
 .Main_SlideBanner_RightButton{
-    right: 150px
+    right: calc((100% - 1200px)/2);
 }
 
 .Main_SlideBanner_Img_Div{

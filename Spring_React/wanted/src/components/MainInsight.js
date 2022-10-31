@@ -3,6 +3,8 @@ import "./../styles/Main_Insight.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faQuestion } from "@fortawesome/free-solid-svg-icons";
 import MainInsightCategory from "./MainInsightCategory";
+import MainInsightContents from "./MainInsightContents";
+import MainInsightMore from "./MainInsightMore";
 
 const MainInsight = () => {
   return (
@@ -15,6 +17,8 @@ const MainInsight = () => {
           </button>
         </div>
         <MainInsightCategory />
+        <MainInsightContents />
+        <MainInsightMore />
       </div>
     </div>
   );
