@@ -1,38 +1,18 @@
-.Detail_Nav{
+.Detail_Div{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 50px;
+}
 
-}
-.Detail_Nav_Div{
-    width: 340px;
-}
-.Detail_Nav_Div_Div{
+.Detail_Div_Div{
     display: flex;
     flex-direction: column;
-    background-color: #fff;
-    border: 1px solid #e1e2e3;
-    border-radius: 3px;
-    padding: 24px 20px;
 }
-.Detail_Nav_Title{
+
+.Detail_Div_Div_Div{
     display: flex;
-    width: 100%;
     justify-content: space-between;
-}
-.Detail_Nav_Title_Text{
-    font-size: 15px;
-    font-weight: 600;
-    color: #333;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.Detail_Nav_Title_ShareButton{
-    width: 40px;
-    height: 40px;
-    background: #fff;
-    border-radius: 20px;
-    border: 1px solid #e1e2e3;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-right: 5px;
+    width: 1060px;
+    padding: 20px 0 80px;
 }

@@ -1,6 +1,6 @@
 import "./../styles/Detail_Nav_Buttons.css";
 
-const Detail_Nav_Buttons = () => {
+const DetailNavButtons = () => {
   return (
     <div className="Detail_Nav_Buttons_Div">
       <button className="Detail_Nav_Buttons_ButtonStyle">
@@ -27,4 +27,4 @@ const Detail_Nav_Buttons = () => {
   );
 };
 
-export default Detail_Nav_Buttons;
+export default DetailNavButtons;

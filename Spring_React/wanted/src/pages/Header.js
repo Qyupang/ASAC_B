@@ -5,7 +5,7 @@ Header.js
 2022.10.21 박보민
  */
 
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";

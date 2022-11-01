@@ -1,6 +1,6 @@
 import "./../styles/Detail_Nav_Amount.css";
 
-const Detail_Nav_Amount = () => {
+const DetailNavAmount = () => {
   return (
     <div className="Detail_Nav_Amount">
       <div className="Detail_Nav_Amount_Div">
@@ -15,4 +15,4 @@ const Detail_Nav_Amount = () => {
   );
 };
 
-export default Detail_Nav_Amount;
+export default DetailNavAmount;

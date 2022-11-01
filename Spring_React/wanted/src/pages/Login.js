@@ -1,7 +1,7 @@
 import "./../styles/Login.css";
 import LoginComponent from "../components/LoginComponent";
 import SigninComponent from "../components/SigninComponent";
-import { useState, useRef } from "react";
+import { useState } from "react";
 
 const Login = (props) => {
   //1일 때 로그인창, 2일 때 회원가입 창 보이기&&로그인 창 없애기
@@ -13,10 +13,9 @@ const Login = (props) => {
     <div className="Login_Div">
       {modalOpen === "1" ? (
         <LoginComponent setModalOpen={setModalOpen} setEmail={setEmail} />
-      ) : null}
-      {modalOpen === "2" ? (
+      ) : (
         <SigninComponent setModalOpen={setModalOpen} email={email} />
-      ) : null}
+      )}
     </div>
   );
 };
