@@ -35,7 +35,6 @@ const App = () => {
         <Route path="/detail" element={<Detail />}>
           <Route path=":id" element={<Detail />} />
         </Route>
-        <Route path="/login" element={<Login />} />
         <Route path="/lab" element={<Lab />} />
         <Route path="/terms" element={<Terms />} />
         <Route path="/privacy" element={<Privacy />} />
@@ -43,6 +42,7 @@ const App = () => {
 
         <Route path="/test" element={<Test />} />
       </Route>
+      <Route path="/login" element={<Login />} />
     </Routes>
   );
 };
