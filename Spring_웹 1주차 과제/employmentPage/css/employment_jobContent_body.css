@@ -1,0 +1,55 @@
+.employment_jobContent_body {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px 0 0;
+    display: flex;
+    justify-content: center;
+    padding-right: 20px;
+    width: 700px;
+}
+
+.employment_jobContent_imgSlide {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.employment_jobContent_imglist>img {
+    width: 700px;
+    height: 490px;
+    border-radius: 4px;
+}
+
+.employment_jobContent_imgSlide_Button_Div{
+    width: 700px;
+    height: 490px;
+    position: absolute;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+}
+.employment_jobContent_imgSlide_Button {
+    display: flex;
+    justify-content: center;
+    width: 63px;
+    height: 100%;
+}
+.employment_jobContent_imgSlide_ButtonBox{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.employment_jobContent_imgSlide_ButtonBox > button{
+    color: #b5b5b5;
+    opacity: 0.7;
+    font-size: 20px;
+    font-weight: 00;
+    border: none;
+    background-color: transparent;
+}
+.employment_jobContent_imgSlide_leftButton{
+}
+.employment_jobContent_imgSlide_rightButton{
+
+}

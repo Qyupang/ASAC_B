@@ -1,0 +1,177 @@
+.topBanner{
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.topBanner_slider{
+    margin-bottom: 0;
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    user-select: none;
+    touch-action: pan-y;
+}
+
+.topBanner_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 120px;
+    width: 30px;
+    height: 60px;
+    opacity: 0.5;
+    border-radius: 15px;
+    background-color: #fff;
+    font-size: 16px;
+    z-index: 10;
+}
+.topBanner_buttonIcon{
+    width: 100%;
+    display: flex;
+}
+.topBanner_buttonIcon_svg{
+    overflow: hidden;
+    user-select: none;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    fill: currentColor;
+    flex-shrink: 0;
+}
+
+.slick_list{
+    position: relative;
+    overflow: hidden;
+    display: block;
+    direction: ltr;
+}
+.slick_track{
+    position: relative;
+    left: 0;
+    top: 0;
+    display: block;
+}
+.slick_slide{
+    padding: 0 12px;
+    box-sizing: content-box;
+    position: relative;
+    display: block;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+.slick_slide_box{
+    display: flex;
+    justify-content: center;
+}
+
+.slider_image{
+    position: relative;
+    padding-bottom: 28.3%;
+}
+.slider_image_image{
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 4px;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+.slider_text{
+    position: absolute;
+    bottom: 28px;
+    width: 330px;
+    height: 146px;
+    border-radius: 4px;
+    background-color: #fff;
+    opacity: 1;
+    text-align: left;
+    left: 34px;
+}
+.slider_text>h2 {
+    margin: 20px 20px 0 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+    line-height: 1.5;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.slider_text>h3 {
+    margin: 0 20px;
+    height: 44px;
+    font-size: 14px;
+    line-height: 1.64;
+    color: #333;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.slider_text_divider{
+    display: block;
+    height: 1px;
+    margin: 0;
+    border: none;
+    flex-shrink: 0;
+    background-color: #ececec;
+    box-sizing: content-box;
+}
+
+.slider_text_button{
+    margin: 6px 0 0 13px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1;
+    color: #36f;
+    height: 40px;
+    padding: 6px 8px;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    min-width: 64px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+.slider_text_button_label{
+    width: 100%;
+    font-size: inherit;
+    font-weight: inherit;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    color: inherit;
+    line-height: 1;
+    font-size: 14px;
+}
+.slider_text_button_endIcon{
+    margin-top: -2px;
+    margin-right: -1px;
+    margin-left: 2px;
+}
+.slider_text_button_svgIcon{
+    width: 100%;
+    display: flex;
+    align-items: inherit;
+    justify-content: inherit;
+}
+.slider_text_button_svgIconS_svg{
+    overflow: hidden;
+    user-select: none;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    fill: currentColor;
+    flex-shrink: 0;
+    font-size: inherit;
+}
